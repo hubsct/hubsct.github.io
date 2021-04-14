@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>Past Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button-underline"><b>Girls </b> Who<b> Code</b> Concord
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Our Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">Meet The Girls</a>
+      <a href="#contact" class="w3-bar-item w3-button">Resources</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
+  <img class="w3-image" src="https://www.shadysideacademy.org/uploaded/News/2020-2021/girls_who_code.png" alt="Architecture" width=100% >
+  <div class="w3-display-middle w3-margin-top w3-center">
+
+  </div>
+</header>
+
+<h1> <center>Meet The Girls</h1>
+
+
+
+
+
+  <p><div class="w3-row-padding w3">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://oecdenvironmentfocusblog.files.wordpress.com/2020/06/wed-blog-shutterstock_1703194387_low_nwm.jpg?w=640" alt="Teresa Hubscher" style="width:80%">
+      <h3>Arnavi</h3>
+      <p class="https://oecdenvironmentfocusblog.files.wordpress.com/2020/06/wed-blog-shutterstock_1703194387_low_nwm.jpg?w=640"></p>
+      <p>Hobby: Traveling <br>
+Favorite book: because of mr. terupt <br>
+Surprising fact: I play the recorder</p>
+      
+    </div>
+    <div class="w3-col l2 m6 w3-margin-bottom">
+      <img src="https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/860_ballet_shoes_ISEF_2018-800x428.png" style="width:100%">
+      
+      <h3>Brielle</h3>
+      <p class="w3-opacity"></p>
+      <p>Hobbies: Ballet <br>
+      Favorite book: Magic Tree House <br>
+      Surprising fact: I love science</p>
+      
+     
+      
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/512px-Blender_logo_no_text.svg.png" alt="Mike" style="width:70%">
+      <h3> Faith</h3>
+      <p class="w3-opacity">Facilitator</p>
+      <p> Hobbies: 3d modeling <br>
+      Favorite book: Moon rising <br>
+      Surprising fact: I play flute</p>
+      
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81IsrwFVeiL._AC_SL1417_.jpg " alt="Dan" style="width:100%">
+      <h3>Tasheen</h3>
+      <p class="w3-opacity"></p>
+      <p> Hobbies: Painting, Piano Playing, Making Presentations <br> Favorite book: Wings Of Fire  Surprising fact: I’m turning eleven in two weeks from when we made this webpage</p>
+     
+     
+    </div>
+   </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLkxf_ha0UMkIgLQq-bB5LA_9-i9czxQE54g&usqp=CAU" alt="Mike" style="width:70%">
+      <h3> Aarya </h3>
+      <p class="w3-opacity"><a href="https://piano1.github.io/">My GWC webpage</a></p>
+      <p> Hobbies: Art and crafts <br>
+      Favorite book: Girls who code series <br>
+      Surprising fact: I danced for 5 years</p>
+      
+    </div>
+  </div>
+  
+
+</div>
+  
+</body>
+</html>
