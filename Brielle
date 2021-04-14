@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body and change the font*/
+body {
+  font-family: 'Verdana', sans-serif;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Verdana', cursive;
+}
+
+h2,h3{
+  font-family: 'verdana', cursive;
+}
+
+/* Header/logo Title and change the color*/
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #000000;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar and change the color */
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other and change color*/
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ffe6e6;
+  padding: 20px;
+  color: #333;
+  text-align:center;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #C0C0C0;
+  padding: 20px;
+}
+
+/* Image Container */
+.imgcontmain {
+  background-color: #a3e5ba;
+  width: 100%;
+  padding: 20px;
+}
+
+.imgcontside{
+  width: 100%;
+}
+
+/* Image Formatting */
+.img{
+  display:block;
+  margin:auto;
+}
+
+.boxleft {
+  width: 300px;
+  border: 3px solid #ff9999;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+}
+.boxright {
+  width: 300px;
+  border: 3px solid #ff9999;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+</style>
+</head>
+ <body>
+    
+  
+<div class="header">
+  <center><h1>About Me!</h1></center>
+<center>  <p>
+   
+
+   
+<div class="navbar">
+<h1> Brielle </h1>
+</div>
+
+   
+<div class="row">
+  
+
+  <div class="side">
+    
+ 
+    
+    
+    <p>Hi! My name is Brielle! I am 10 years old an I am in 4th grade. Here is some facts!</p>
+     <img src="https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/860_ballet_shoes_ISEF_2018-800x428.png" width=100%>
+   
+      
+    </h3>
+      <p><br>
+        <br>
+        </p>
+    <h4></h4>
+    <p>
+      <br>
+     <br>
+     <br>
+     
+    </p>
+    <p></p>
+    
+ 
+  </div>
+  
+    <div class="main">
+     <div>
+       <div class="boxleft">
+         <h2>
+           Hobbie
+      </h2>
+      <ul>
+      <li>Dancing!  
+       <li>Reading a book!
+        <li>Science!
+        <li>Art and Craft
+      </ul>
+   
+       
+       </div>
+       <div class="boxright">
+       <h2>
+        Song selection
+      </h2>
+      <ul>
+        <li>Riptde by Vance Joy
+        <li>High Hopes by Panic at the Disco
+        <li>Memories by Maroon 5
+        <li>Blinding By the Lights by The Weekend
+        
+         
+      </ul>
+       <br>
+       </div>
+       <div class="boxleft">
+      <h2>
+        What I don't like
+      </h2>
+      <ul>
+        <li>When something is poking me which I don't know
+        <li>When I get in trouble
+         <li>When I got hurt
+         <li>When I draw it gets a disaster
+         
+         
+         
+         
+         
+         
+         
+             
+         </div>
+       <div class="boxright">
+       <h2>
+        Instruments I play
+        </h2>
+        <ul> 
+        <li>Violin
+        <li> Piano
+        <li> Recorder
+        <li> Triangle
+        
+       
+      </ul>
+       </div>
+  </div>
+  </div>
+  </body>
+</html>
