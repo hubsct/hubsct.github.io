@@ -1,0 +1,23 @@
+header{padding-top: 40px;
+      background-color: #bfe;}
+body {
+  background-image: url("https://cdn.abcotvs.com/dip/images/3822653_072518-cc-ss-beach-water-img.jpg?w=1600");}
+  P{color:white;
+  font-family: 'Brush Script MT', cursive;}
+#font {font-size: 30px}
+iframe{width: 90%;
+      margin-left: 25px;}
+topnav{overflow:hidden;background-color:#bfe6ff}
+
+a:link, a:visited {
+  background-color: #5fbab2;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #b9faee;
+}
