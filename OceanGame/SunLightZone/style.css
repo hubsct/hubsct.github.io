@@ -1,0 +1,29 @@
+.wow {
+  width: 100px;
+}
+body {
+  background-image: url("https://media.istockphoto.com/photos/summer-pastel-colored-background-sandy-beach-and-sea-water-over-small-picture-id1190433940?k=20&m=1190433940&s=612x612&w=0&h=hDf7u7Hr7o2X86A_Z9mo0uGsIk9ydfQ0mlMbrN_9Zfc=");
+background-size: 100%, 100%;
+  background-repeat: no-repeat;}
+P{color:#56130a;
+  font-family: 'Brush Script MT', cursive;}
+#font {font-size: 40px}
+P{padding-left: 300px;}
+
+M{color:#56130a;
+  font-family: 'Brush Script MT', cursive;}
+#ft {font-size: 20px}
+M{padding-left: 30px;}
+
+a:link, a:visited {
+  background-color: #b6828d;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #83bcbc;
+}
