@@ -1,0 +1,15 @@
+header{
+  padding-top:40px;
+  background-color:#00ffe1;
+}
+.display_1
+  {background-color:#ff8fd0;}
+ul{list-style-type:none;
+background-color: #938dd3;
+  overflow: hidden;}
+li{display: inline;
+   float: right;}
+.display_2
+  {background-color:#8f93ff;}
+a:link, a:visited { background-color: #7598ff; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; } a:hover, a:active { background-color: 
+  #ffb3e3; }
