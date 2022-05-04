@@ -1,4 +1,4 @@
-ul{
+.topnav {
   list-style-type: none;
 /*  background-color: #87dcf8; */
   overflow: hidden;
@@ -6,7 +6,7 @@ ul{
   width: 90%; 
 }  
 
-li a
+.topnav a
 { display: inline;
   float: right;
   font-size: 20px;
@@ -15,7 +15,7 @@ li a
 padding: 10px;
 background-color:#4799e6} 
 
-li a:hover 
+.topnav a:hover 
 {background-color: #ffebeb33; color: #ffffff;}
 
 
