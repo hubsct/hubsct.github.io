@@ -25,11 +25,11 @@ li{
 li a
 { text-decoration: none; 
 padding: 10px;
-background-color:#4799e6} 
+background-color:##78EED7 } 
 
 li a:hover 
-{background-color: #ffebeb33; color: #ffffff;}
+{background-color: #E686B7; color: #ffffff;}
 
 
 header
-{padding-top: 20px; background-color:#87dcf8;}
+{padding-top: 20px; background-color:#A0E69D ;}
