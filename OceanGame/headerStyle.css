@@ -1,3 +1,6 @@
+header
+{padding-top: 5px; background-color:#87dcf8;}
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -5,17 +8,18 @@
   width: 90%;
 }
 
-
 .topnav a
-{ display: inline;
+{ text-decoration: none; 
+  display: inline;
   float: right;
   font-size: 20px;
   color: #4b87e7;
-  padding: 24px;
-  text-decoration: none; 
+  padding: 14px;
 background-color:#4799e6} 
 
 .topnav a:hover 
 {background-color: #ffebeb33; color: #ffffff;}
+
+
 
 
