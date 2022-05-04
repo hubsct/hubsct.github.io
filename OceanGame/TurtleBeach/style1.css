@@ -1,7 +1,5 @@
-header{
-  padding-top:40px;
-  background-color:#00ffe1;
-}
+@import url("../headerStyle.css");
+
 .display_1
   {background-color:#ff8fd0;}
 ul{list-style-type:none;
