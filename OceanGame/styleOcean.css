@@ -1,12 +1,12 @@
 @import url('headerStyle.css');
 
-body{background-color: lightskyblue}
+body{background-color: lightskyblue;}
 p{color:#006f94;
   font-family: Arial;}
 #describe{color:#004e75} 
-h1{font-family: Arial, Times New Roman }
-h2{font-family: Arial, Times New Roman }
-h4{font-family: Arial, Times New Roman }
+h1{font-family: Arial, Times New Roman; }
+h2{font-family: Arial, Times New Roman; }
+h4{font-family: Arial, Times New Roman; }
 p1{font-color: #a9befe;
   font-family: Arial;
   padding: 5px;
