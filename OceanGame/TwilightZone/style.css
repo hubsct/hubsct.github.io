@@ -1,3 +1,5 @@
+@import url("../headerStyle.css");
+
 body{background-color: lightskyblue}
 p{color:#006f94;
   font-family: Arial;}
