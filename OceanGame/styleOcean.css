@@ -1,7 +1,7 @@
 @import url('headerStyle.css');
 p.one {
   border-style: inset;
-  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+  border-width: 5px 5px; /* 5px top and bottom, 20px on the sides */
   border-color: #2596be;
   border-radius: 5px;
 }
