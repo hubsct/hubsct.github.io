@@ -13,6 +13,21 @@ p5{color:#ffffff}
 body{
  background-color: #384e6b;
 
+/* Added on for button */
+a:link, a:visited {
+  background-color: #5fbab2;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #b9faee;
+}
+      
+      
 /* p{color:#f5f7ff;
   font-family: "Arial", sans-serif;}
 } */
