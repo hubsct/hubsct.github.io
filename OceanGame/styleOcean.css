@@ -1,5 +1,5 @@
 @import url('headerStyle.css');
-p.one {
+p3.one {
   border-style: inset;
   border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
   border-color: #2596be;
