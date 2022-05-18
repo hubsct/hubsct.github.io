@@ -7,10 +7,11 @@ p{color:#006f94;
 h1{font-family: Arial, Times New Roman; }
 h2{font-family: Arial, Times New Roman; }
 h4{font-family: Arial, Times New Roman; }
-p1{font-color: #a9befe;
+p1{font-color: #ffffff;
   font-family: Arial;
   padding: 5px;
-  border: 1px solid #009dd1; }
+  border: 1px solid #009dd1;
+  background-color:#3399FF}
 p2{color: #87cefa;
   font-family: Arial; }
 .beach
