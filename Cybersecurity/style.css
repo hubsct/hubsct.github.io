@@ -1,11 +1,52 @@
 html, body {
   height: 100%;
   width: 100%;
-	background: #e99fd2;
+
 }
-.main {   
+.main1 {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: #C0C0C0;
+  background-color: #e99fd2;
 }
+.main2 {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #fa87c8;
+}
+
+
+
+/* Image Container */
+.imgcontmain {
+  background-color: #a3e5ba;
+  width: 100%;
+  padding: 20px;
+}
+
+.imgcontside{
+  width: 100%;
+}
+
+/* Image Formatting */
+.img{
+  display:block;
+  margin:auto;
+}
+
+.boxleft {
+  width: 300px;
+  border: 3px solid #ff9999;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+}
+.boxright {
+  width: 300px;
+  border: 3px solid #ff9999;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+}
+
+</style>
 h1{color: black;}
