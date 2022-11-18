@@ -40,7 +40,7 @@ html, body {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: #fa87c8;
-    
+}
 #boxleft {
   width: 300px;
   border: 3px solid #ff9999;
