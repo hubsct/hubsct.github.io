@@ -3,6 +3,16 @@ html, body {
   width: 100%;
 
 }
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ffe6e6;
+  padding: 20px;
+  color: #333;
+  text-align:center;
+}
+
 .main1 {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
@@ -11,10 +21,7 @@ html, body {
 .main2 {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: #fa87c8;
-}
-
-
+  background-color:
 
 /* Image Container */
 .imgcontmain {
@@ -48,5 +55,16 @@ html, body {
   float: right;
 }
 
-</style>
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+ #fa87c8;
+}
+
+
 h1{color: black;}
