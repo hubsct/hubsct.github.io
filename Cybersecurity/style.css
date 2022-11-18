@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  background: #76b5c5
 
 }
 
@@ -63,9 +64,5 @@ html, body {
   background: #333;
   color: white;
 }
-
- 
-}
-
 
 h1{color: black;}
