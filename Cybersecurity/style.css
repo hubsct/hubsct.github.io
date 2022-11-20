@@ -42,7 +42,8 @@ html, body {
   background-color: #fa87c8;
 }
 .boxleft {
-  width: 300px;
+  width: 40%x;
+  height: 40%;
   border: 3px solid #ff9999;
   padding: 10px;
   margin: 20px;
@@ -50,7 +51,26 @@ html, body {
 	background-color: lightgray;
 }
 .boxright {
-  width: 300px;
+  width: 40%;
+  height: 40%;
+  border: 3px solid #ff9999;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+	background-color: lightgray;
+  
+}.boxleft2 {
+  width: 40%;
+  height: 40%;
+  border: 3px solid #ff9999;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+	background-color: lightgray;
+}
+.boxright2 {
+  width: 40%;
+  height: 40%;
   border: 3px solid #ff9999;
   padding: 10px;
   margin: 20px;
