@@ -1,9 +1,10 @@
 html, body {
   height: 100%;
   width: 100%;
+	background-color: #f0a3ed
 }
 
-#side {
+.side {
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #ffe6e6;
@@ -12,47 +13,49 @@ html, body {
   text-align:center;
 }
 
-#main1 {   
+.main1 {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: #e99fd2;
+  background-color: #d1c3f4;
 }
 
 
 /* Image Container */
-#imgcontmain {
+.imgcontmain {
   background-color: #abdbe3;
   width: 100%;
   padding: 20px;
 }
 
-#imgcontside{
+.imgcontside{
   width: 100%;
 }
 
 /* Image Formatting */
-#img{
+.img{
   display:block;
   margin:auto;
 }
-#main2 {   
+.main2 {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: #fa87c8;
 }
-#boxleft {
+.boxleft {
   width: 300px;
   border: 3px solid #ff9999;
   padding: 10px;
   margin: 20px;
   float: left;
+	background-color: lightgray
 }
-#boxright {
+.boxright {
   width: 300px;
   border: 3px solid #ff9999;
   padding: 10px;
   margin: 20px;
   float: right;
+	background-color: lightgray
 }
 
 /* Footer */
