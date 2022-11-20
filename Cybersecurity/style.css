@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-	background-color: #f0a3ed
+	background-color: #f0a3ed;
 }
 
 .side {
@@ -47,7 +47,7 @@ html, body {
   padding: 10px;
   margin: 20px;
   float: left;
-	background-color: lightgray
+	background-color: lightgray;
 }
 .boxright {
   width: 300px;
@@ -55,7 +55,7 @@ html, body {
   padding: 10px;
   margin: 20px;
   float: right;
-	background-color: lightgray
+	background-color: lightgray;
 }
 
 /* Footer */
