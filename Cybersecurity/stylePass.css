@@ -67,6 +67,10 @@ input::placeholder{
    margin-left: 300px
  }
 
+.whitelink{
+  color: white;
+}
+
 #button:hover {
   color: #f1e3dd;
   background-color: #667292f1;
