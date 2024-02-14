@@ -1,0 +1,39 @@
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style= "background-color:lightcyan;">
+  <h1>Bees </h1> <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span>
+  <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span>
+   <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> <span style='font-size:30px;'>&#128029;</span> 
+  <p> Bees are more than 40% vulnerable to extinction. They are the most important pollinators in the world. They are the only insects that can pollinate more than 80% of the world's crops. They are very important to the ecosystem. Bees are endangered because of the loss of habitat, climate change, and pesticides. After all, bees pollinate most of the food we eat. Without bees, many plants would struggle to reproduce, leading to a decline in biodiversity and food production.</p>
+  <p>You can protect bees by planting a bee garden, planting trees, or just learning more about them! Here is a link to learn more about these tiny insects: <a href="https://www.treehugger.com/why-some-bees-endangered-and-what-we-can-do-5025654">Click here!</a></p>
+  <ul>
+    <h3>Fun facts:</h3>
+    <li>There are only 80-100 hives left.</li>
+    <li>There are over 20,000 known species of bees.</li>
+    <li>Only female bees have stingers.</li>
+  </ul>
+    <h2>Sources:</h2>
+    <a href="https://www.treehugger.com/why-some-bees-endangered-and-what-we-can-do-5025654">treehugger.com</a>
+  <br>
+  <a href="https://www.fantasticpestcontrol.co.uk/bees/#:~:text=Male%20bees%20%E2%80%93%20Male%20bees%20do,the%20head%2C%20unlike%20in%20females.">fantasticpestcontrol.co.uk</a>
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
