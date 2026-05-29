@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fraction Playground</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cloud cloud-one"></div>
+  <div class="cloud cloud-two"></div>
+  <div class="cloud cloud-three"></div>
 
+  <main class="page">
+    <section class="hero panel">
+      <div class="hero-copy">
+        <p class="eyebrow">Math Adventure</p>
+        <h1>Fraction Playground</h1>
+        <p class="hero-text">
+          Learn fractions by building them, seeing them, and solving mini challenges.
+        </p>
+        <div class="hero-actions">
+          <a class="jump-button" href="#explorer">Start Exploring</a>
+          <a class="jump-button alt" href="#quiz">Try The Quiz</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="sunburst"></div>
+        <div class="hero-fraction hero-fraction-one">1/2</div>
+        <div class="hero-fraction hero-fraction-two">2/3</div>
+        <div class="hero-fraction hero-fraction-three">3/4</div>
+
+        <div class="showcase-bar">
+          <span class="showcase-segment filled"></span>
+          <span class="showcase-segment filled"></span>
+          <span class="showcase-segment filled"></span>
+          <span class="showcase-segment"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="lesson-grid">
+      <article class="panel lesson-card">
+        <p class="eyebrow">Step 1</p>
+        <h2>Top Number</h2>
+        <p>
+          The <strong>numerator</strong> tells how many parts are chosen or shaded.
+        </p>
+        <div class="note-pill">In 3/4, the 3 is the numerator.</div>
+      </article>
+
+      <article class="panel lesson-card">
+        <p class="eyebrow">Step 2</p>
+        <h2>Bottom Number</h2>
+        <p>
+          The <strong>denominator</strong> tells how many equal parts make one whole.
+        </p>
+        <div class="note-pill">In 3/4, the 4 is the denominator.</div>
+      </article>
+
+      <article class="panel lesson-card">
+        <p class="eyebrow">Big Idea</p>
+        <h2>Same Amount, New Name</h2>
+        <p>
+          Fractions like 1/2 and 2/4 can look different but still mean the same amount.
+        </p>
+        <div class="equivalent-preview">
+          <span>1/2</span>
+          <span>=</span>
+          <span>2/4</span>
+          <span>=</span>
+          <span>3/6</span>
+        </div>
+      </article>
+    </section>
+
+    <section id="explorer" class="panel explorer-panel">
+      <div class="section-heading">
+        <p class="eyebrow">Build It</p>
+        <h2>Fraction Explorer</h2>
+        <p>
+          Pick a story, change the numbers, and watch the fraction wheel and bar update.
+        </p>
+      </div>
+
+      <div class="explorer-layout">
+        <article class="subpanel controls-card">
+          <div class="control-group">
+            <p class="control-label">Pick a story</p>
+            <div class="chip-row scene-row">
+              <button type="button" class="chip-button is-active" data-scene="pizza" aria-pressed="true">Pizza Party</button>
+              <button type="button" class="chip-button" data-scene="chocolate" aria-pressed="false">Chocolate Bar</button>
+              <button type="button" class="chip-button" data-scene="garden" aria-pressed="false">Garden Patch</button>
+              <button type="button" class="chip-button" data-scene="treasure" aria-pressed="false">Treasure Map</button>
+            </div>
+            <p id="scene-story" class="scene-story"></p>
+          </div>
+
+          <div class="control-group">
+            <p class="control-label">Choose the denominator</p>
+            <div class="chip-row" id="denominator-row">
+              <button type="button" class="chip-button" data-denominator="2">2</button>
+              <button type="button" class="chip-button" data-denominator="3">3</button>
+              <button type="button" class="chip-button is-active" data-denominator="4">4</button>
+              <button type="button" class="chip-button" data-denominator="5">5</button>
+              <button type="button" class="chip-button" data-denominator="6">6</button>
+              <button type="button" class="chip-button" data-denominator="8">8</button>
+              <button type="button" class="chip-button" data-denominator="10">10</button>
+              <button type="button" class="chip-button" data-denominator="12">12</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <div class="slider-top">
+              <p class="control-label">Choose the numerator</p>
+              <div class="fraction-badge">
+                <span id="numerator-value">3</span>/<span id="denominator-value">4</span>
+              </div>
+            </div>
+
+            <div class="stepper-row">
+              <button id="numerator-down" type="button" class="round-button">-</button>
+              <input id="numerator-slider" type="range" min="0" max="4" value="3">
+              <button id="numerator-up" type="button" class="round-button">+</button>
+            </div>
+          </div>
+
+          <p id="fraction-readout" class="readout"></p>
+        </article>
+
+        <article class="subpanel visual-card">
+          <div class="wheel-stage">
+            <div id="fraction-wheel" class="fraction-wheel">
+              <div class="wheel-center">
+                <strong id="wheel-value">3/4</strong>
+                <span id="wheel-word">three quarters</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bar-stage">
+            <div id="fraction-bar" class="fraction-bar"></div>
+          </div>
+
+          <div class="number-line-card">
+            <div class="number-line">
+              <div id="line-fill" class="line-fill"></div>
+              <div id="line-marker" class="line-marker"></div>
+            </div>
+            <div class="line-labels">
+              <span>0</span>
+              <span>1/2</span>
+              <span>1</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="subpanel facts-card">
+          <h3>Equivalent Fractions</h3>
+          <p>
+            Multiply the top and bottom by the same number and the amount stays the same.
+          </p>
+
+          <div id="equivalent-list" class="equivalent-list"></div>
+
+          <div class="tip-box">
+            <p class="control-label">Quick clue</p>
+            <p id="simplified-text"></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="quiz" class="panel quiz-panel">
+      <div class="section-heading">
+        <p class="eyebrow">Quiz It</p>
+        <h2>Snack Challenge</h2>
+        <p>
+          Answer fraction questions to earn stars and build a streak.
+        </p>
+      </div>
+
+      <div class="quiz-layout">
+        <article class="subpanel quiz-card">
+          <div class="quiz-meta">
+            <p id="quiz-type" class="control-label">Compare challenge</p>
+            <div id="star-meter" class="star-meter" aria-label="Streak meter"></div>
+          </div>
+
+          <h3 id="quiz-question"></h3>
+          <div id="quiz-visual" class="quiz-visual"></div>
+          <div id="quiz-options" class="quiz-options"></div>
+
+          <p id="quiz-feedback" class="quiz-feedback" aria-live="polite">
+            Pick an answer and hit check.
+          </p>
+
+          <div class="quiz-actions">
+            <button id="check-answer" type="button" class="primary-button" disabled>Check Answer</button>
+            <button id="next-question" type="button" class="secondary-button">New Challenge</button>
+          </div>
+        </article>
+
+        <aside class="subpanel coach-card">
+          <h3>Coach Corner</h3>
+
+          <div class="score-pair">
+            <span>Stars earned</span>
+            <strong id="quiz-score">0</strong>
+          </div>
+
+          <div class="score-pair">
+            <span>Challenges played</span>
+            <strong id="quiz-total">0</strong>
+          </div>
+
+          <div class="score-pair">
+            <span>Current streak</span>
+            <strong id="quiz-streak">0</strong>
+          </div>
+
+          <div class="tip-box">
+            <p class="control-label">Helpful hint</p>
+            <p id="quiz-tip">
+              Count the shaded parts first, then count the equal parts in the whole.
+            </p>
+          </div>
+
+          <div class="coach-list">
+            <p>Top number = shaded parts.</p>
+            <p>Bottom number = equal parts in the whole.</p>
+            <p>Equivalent fractions cover the same amount.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
